@@ -24,13 +24,13 @@ A desktop-based file sharing system developed using C#, WPF, TCP/IP sockets, and
 # Screenshots
 
 ## Login Window
-![Login](Screenshots/LoginPage.jpg)
+![Login](Screenshots/LoginPage.JPG)
 
 ## Register Window
-![Register](Screenshots/SignupPage.jpg)
+![Register](Screenshots/SignupPage.JPG)
 
 ## Dashboard
-![Dashboard](Screenshots/MainDashboard.jpg)
+![Dashboard](Screenshots/MainDashboard.JPG)
 
 ## Server Window
-![Server](Screenshots/Server.jpg)
+![Server](Screenshots/Server.JPG)
