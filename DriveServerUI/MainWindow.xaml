@@ -1,0 +1,33 @@
+﻿<Window x:Class="DriveServerUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Drive Server Dashboard"
+        Height="500"
+        Width="800"
+        Background="#1E1E2F">
+
+    <Grid Margin="10">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- HEADER -->
+        <TextBlock Text="SERVER DASHBOARD"
+                   FontSize="22"
+                   FontWeight="Bold"
+                   Foreground="White"
+                   Margin="10"/>
+
+        <!-- LOG BOX -->
+        <ListBox x:Name="LogBox"
+                 Grid.Row="1"
+                 Background="#2D2D44"
+                 Foreground="Lime"
+                 FontFamily="Consolas"
+                 FontSize="14"
+                 BorderThickness="0"/>
+
+    </Grid>
+</Window>
